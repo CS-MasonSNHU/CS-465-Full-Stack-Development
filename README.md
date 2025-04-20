@@ -1,6 +1,6 @@
 # CS-465-Full-Stack-Development
 
-Architecture
+<h1>Architecture</h1>
 In my full-stack project, I used two main types of frontend development: traditional server-rendered HTML with Express and a modern Single-Page Application (SPA) with Angular. With Express HTML, the server sends full web pages to the browser every time you click a link, which works but feels slower because the page reloads constantly. JavaScript adds interactivity, like animations or form validation, to make the site more dynamic. The SPA, built with Angular, takes this further—it loads once and updates content without reloading the page, making it feel fast and smooth, like a mobile app. The backend uses MongoDB, a NoSQL database, because it’s flexible. Unlike rigid tables in SQL databases, MongoDB stores data in JSON-like documents, which works perfectly with JavaScript and handles changes (like adding new fields) without breaking everything.
 
 Functionality
