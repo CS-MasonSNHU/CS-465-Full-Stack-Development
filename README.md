@@ -3,11 +3,11 @@
 <h1>Architecture</h1>
 In my full-stack project, I used two main types of frontend development: traditional server-rendered HTML with Express and a modern Single-Page Application (SPA) with Angular. With Express HTML, the server sends full web pages to the browser every time you click a link, which works but feels slower because the page reloads constantly. JavaScript adds interactivity, like animations or form validation, to make the site more dynamic. The SPA, built with Angular, takes this further—it loads once and updates content without reloading the page, making it feel fast and smooth, like a mobile app. The backend uses MongoDB, a NoSQL database, because it’s flexible. Unlike rigid tables in SQL databases, MongoDB stores data in JSON-like documents, which works perfectly with JavaScript and handles changes (like adding new fields) without breaking everything.
 
-Functionality
+<h1>Functionality</h1>
 JSON (JavaScript Object Notation) is like a universal translator for data. It’s not JavaScript itself but a format for organizing data that both frontend and backend can understand. For example, when you submit a form in the Angular app, it sends data as JSON to the Express backend, which processes it and saves it to MongoDB. Later, when you request that data, the backend sends it back as JSON for the frontend to display. I refactored code several times to make things work better, like simplifying repetitive functions or breaking large components into smaller, reusable ones (e.g., a button component for forms). Reusable components save time and keep the app consistent, since the same button style or logic can be used everywhere.
 
-Testing
+<h1>Testing</h1>
 Testing a full-stack app involves checking if the frontend and backend “talk” correctly. For example, I used Postman to send requests to API endpoints like GET /trips to fetch trip data or PUT /trips to update a trip. Security adds challenges—like testing if a logged-in user can edit a trip versus a guest who can’t. I added authentication (like JWT tokens) to endpoints, so the backend checks if a user is allowed to make a request. Testing these layers meant verifying both the technical side (does the endpoint work?) and the security side (does it block unauthorized users?).
 
-Reflection
+<h1>Reflection</h1>
 This course helped me build real-world skills like designing full-stack apps, working with databases, and solving problems step-by-step. I learned to use the MEAN stack (MongoDB, Express, Angular, Node.js), which companies actually use, and practiced teamwork by simulating how developers collaborate on projects. Skills like debugging, writing clean code, and testing APIs make me a stronger candidate for tech jobs because employers look for people who can build and troubleshoot apps from start to finish. It’s given me confidence to tackle complex projects and adapt to new tools, which is huge in a field that’s always changing.
